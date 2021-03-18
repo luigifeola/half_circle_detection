@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -g -Wall
-SRCS = half_circle_detection.cpp
-PROG = half_circle_detection
+SRCS = load_images.cpp
+PROG = load_images
 
 OPENCV = `pkg-config opencv --cflags --libs`
 LIBS = $(OPENCV)
